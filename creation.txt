@@ -1,0 +1,21 @@
+USE ANACONDA PROMPT FOR THE SERVER CREATION
+download it form https://www.anaconda.com/
+
+
+downloading package from conda
+->conda create --name myDjangoEnv django
+
+to activate the enviorment
+->conda activate myDjangoEnv
+
+
+to deactivate 
+-> deactivate myDjangoEnv
+
+
+to start the project
+-> django-admin startproject first_project
+
+
+to start the app
+->python manage.py startapp first_app
